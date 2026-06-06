@@ -4,6 +4,8 @@ A comprehensive software engineering project focused on the analysis, design, an
 
 Designed as an academic software engineering project, the system aims to provide a convenient, sustainable, and technology-driven transportation solution for urban environments.
 
+![Preview](UI-UX/Mockup-Preview.png)
+
 ---
 
 # 📌 Project Overview
@@ -132,36 +134,24 @@ The designed system includes support for:
 # 📂 Repository Structure
 
 ```text
-Charkhity-Bike-Sharing-Platform/
-│
+Charkhity/
 ├── Analysis/
-│   ├── Feasibility.png
-│   ├── Feature-List.png
-│   ├── Personas-And-Scenarios.png
-│   ├── Questionnaire.png
-│   ├── Risk-Analysis.png
-│   └── Scope-Definition.png
+│   ├── Project Documentation
+│   ├── Analytical Documentation 
+│   └── Research Materials
 │
 ├── Diagrams/
-│   ├── Data-Flow-Diagram-Level-0.png
-│   ├── Data-Flow-Diagram-Level-1.png
-│   ├── Data-Flow-Diagram-Level-2.png
-│   ├── Data-Flow-Diagrams.png
-│   ├── Entity-Relationship-Diagram.png
-│   ├── Network-Diagram.png
-│   └── Use-Case-Diagram.png
+│   ├── Data Flow Diagrams
+│   ├── Entity-Relationship Diagram
+│   ├── Network Diagram
+│   └── Use Case Diagram
 │
 ├── UI-UX/
-│   ├── Bicycle-Specifications.png
-│   ├── Extending-Trip.png
-│   ├── Home.png
-│   ├── Map-Station.png
-│   ├── Profile.png
-│   ├── Reservation.png
-│   ├── Start-Trip.png
-│   └── Station-Specifications.png
+│   ├── Screenshots
+│   ├── Mockups
+│   └── Figma Assets
 │
-├── Charkhity-Project-Documentation.pdf
+├── Charkhity-Project-Documentation.png
 └── README.md
 ```
 
@@ -220,35 +210,35 @@ Key localization aspects include:
 
 ## 📱 UI Preview
 
-This section provides some examples of Charkhity UI/UX design. more examples can be found in the UI-UX folder.
+This section highlights some of the key UI/UX designs created for the Charkhity platform. For additional screens and design resources, please refer to the **UI-UX** folder.
 
 ### 🏠 Home Dashboard
 
-![Home](UI-UX/Home.png)
+![Home](UI-UX/Mockup-Home.png)
 
 ---
 
 ### 🗺️ Interactive Map
 
-![Map](UI-UX/Map.png)
+![Map](UI-UX/Mockup-Map.png)
 
 ---
 
-### 🚲 Station Information
+### 🚏 Station Information
 
-![Station](UI-UX/Station-Information.png)
+![Station](UI-UX/Mockup-Station.png)
 
 ---
 
 ### 🚲 Bicycle Reservation
 
-![Reservation](UI-UX/Reservation.png)
+![Reservation](UI-UX/Mockup-Reservation.png)
 
 ---
 
 ### 👤 User Profile
 
-![Profile](UI-UX/Profile.png)
+![Profile](UI-UX/Mockup-Profile.png)
 
 ---
 
@@ -284,26 +274,29 @@ Identification and assessment of technical, operational, security, financial, an
 
 Definition of project boundaries, system objectives, functional requirements, and prioritized feature lists.
 
-> Detailed analysis documents, system models, and supporting project artifacts are available in the **Analysis** and **Diagrams** folders for further review.
+> Detailed analysis documents, system models, and supporting project artifacts are available in the **Analysis** folder for further review.
 
 ---
 
 # 📐 System Modeling
 
-The project includes several software engineering models and diagrams:
+The project includes several software engineering models and diagrams created during the analysis and design phases. Key diagrams are highlighted below.
 
-* Use Case Diagram
-* Data Flow Diagrams (DFD)
-* Entity Relationship Diagram (ERD)
-* Network Diagram
+* **🗄️ Entity Relationship Diagram (ERD)**
+* **🔄 Data Flow Diagrams (DFD)**
+* **🎭 Use Case Diagram**
+* **🕸️ Network Diagram**
 
-## 🎭 Use Case Diagram
+## 🗄️ Entity Relationship Diagram
 
-![Use Case](Diagrams/Use-Case-Diagram.png)
+The ERD illustrates the main entities of the Charkhity platform and the relationships between them, serving as the foundation for the database design.
+
+![ERD](Diagrams/Entity-Relationship-Diagram.png)
 
 ---
 
 ## 🔄 Data Flow Diagrams
+The Data Flow Diagrams describe how information moves throughout the system and how users interact with different processes and services.
 
 ### 0️⃣ DFD Level 0
 
@@ -317,17 +310,7 @@ The project includes several software engineering models and diagrams:
 
 ![DFD Level 2](Diagrams/Data-Flow-Diagram-Level-2.png)
 
----
-
-## 🗄️ Entity Relationship Diagram
-
-![ERD](Diagrams/Entity-Relationship-Diagram.png)
-
----
-
-## 🕸️ Network Diagram
-
-![Network Diagram](Diagrams/Network-Diagram.png)
+> Additional diagrams, including Use Case Diagram, Network Diagram, and other system models, are available in the **Diagrams** folder.
 
 ---
 
